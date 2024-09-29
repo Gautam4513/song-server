@@ -4,7 +4,7 @@ import os
 app = Flask(__name__)
 
 # Change this to your folder path
-DIRECTORY_PATH = "C:/Users/kk/Desktop/projects/songs/songs"  # Replace with the actual folder path
+DIRECTORY_PATH = "./songs"  # Replace with the actual folder path
 
 @app.route('/')
 def list_folders():
